@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async 		 src="https://www.googletagmanager.com/gtag/js?id=UA-160999725-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-160999725-1');
+    </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="msvalidate.01" content="B6A0F860E74D69CC55147D63A449F44C"/>
+  <title>STGOTropical - Equipo freelancer</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="../img/svg/avatars.svg">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="../css/mdb.min.css">
+  <!-- Mailchimp css -->
+  <link href="../css/slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!--<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">-->
+</head>
+<body>
+
+<!--Navbar -->
+<nav class="mb-1 navbar fixed-top navbar-expand-lg navbar-dark orange lighten-1 scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="https://stgotropical.000webhostapp.com">
+      <img src="../img/logo.png" alt="STGOTropical" style="width: 50px; height: 50px;">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+    aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../blog">Blog</a></li>
+    </ul>
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item avatar">
+        <a class="nav-link js-scroll-trigger p-0" href="#contact">
+          <img src="../img/svg/avatars.svg" class="rounded-circle z-depth-0" alt="avatar image" height="35">
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<!--/.Navbar -->
+
+<!-- Cabecera -->
+<section id="home" style="height: 100vh">
+  <div class="flex-center flex-column">
+    
+    <!-- Central Modal Medium Success -->
+    <div class="modal-dialog modal-notify modal-success" role="document">
+      <!--Content-->
+      <div class="modal-content">
+        <!--Header-->
+        <div class="modal-header">
+          <p class="heading lead">Mensaje enviado</p>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+
+        <!--Body-->
+        <div class="modal-body">
+          <div class="text-center">
+            <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+            <p>Su mensaje ha sido enviado satisfactoriamente, le responderemos en la mayor brevedad posible.</p>
+          </div>
+        </div>
+
+        <!--Footer-->
+        <div class="modal-footer justify-content-center">
+          <a type="button" class="btn btn-success" href="../">INICIO <i class="fas fa-home ml-1 text-white"></i></a>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+
+  </div>
+</section>
+
+<i class="ir-arriba fas fa-angle-up fa-3x wow fadeInUp delay-1s" aria-hidden="true"></i>
+
+<footer id="footer">
+  <div class="container-fluid" style="background: #2c3e50;">
+  <div class="flex-center flex-column p-2">
+      <div class="row">
+      <div class="col text-white text-center text-muted">
+          <p class="pb-3">Sitio web desarrollado por: STGOTropical</p>
+          <p id="derechos">© Todos los derechos reservados</p>
+      </div>
+      </div>
+  </div>
+  </div>
+</footer>
+
+
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../js/mdb.min.js"></script>
+
+  <!-- efecto sroll navbar -->
+  <script src="../vendor/jquery.easing.min.js"></script>
+  <script src="../vendor/freelancer.min.js"></script>
+  
+  <!-- Inicializacionde las animaciones -->
+  <script>new WOW().init();</script>
+
+  <script>
+    $(document).ready(function(){
+ 
+    $('.ir-arriba').click(function(){
+      $('body, html').animate({
+        scrollTop: '0px'
+      }, 300);
+    });
+
+    $(window).scroll(function(){
+      if( $(this).scrollTop() > 0 ){
+        $('.ir-arriba').slideDown(300);
+      } else {
+        $('.ir-arriba').slideUp(300);
+      }
+    });
+
+    });
+  </script>
+
+</body>
+</html>
